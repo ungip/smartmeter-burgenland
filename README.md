@@ -13,6 +13,10 @@ This sketch was made to read and decrypt the data from my Smart Meter (Landis+Gy
 !!!!!!!!!!! Flash your ESP before connecting to TTL reader !!!!!!!!!!!!!
 ## Wiring
 ## Script
+The script is for 2 TTL readers connected to ESP, but you can use 1 too. Than you have to delete the lines begining with +2,1,r... and correct >M 2 to >M1
+
+In the line +1,`3`,r... the `3` is the GPIO port, standard RX(GPIO3). You can change it if you like (by the 2nd meter is GPIO2, you can change it too...) You can use any GPIO port of the ESP.
+
 ```
 >D
 >B
@@ -39,7 +43,7 @@ endif
 1,020Ex24UUuuUUuu@1,Leistung -P,W,W_OUT,0
 1,020Ex29UUuuUUuu@1000,Zählerstand +P,kWh,kWh_total_IN,3
 1,020Ex34UUuuUUuu@1000,Zählerstand -P,kWh,kWh_total_OUT,3
-+2,1,r,0,9600,smartmeter2
++2,2,r,0,9600,smartmeter2
 2,=so3,512
 2,=so4,Encyrption Key
 2,020Ex1UUuu@1,Spannung L1,V,V_L1,0
