@@ -15,7 +15,7 @@ This sketch was made to read and decrypt the data from my Smart Meter (Landis+Gy
 ## Script
 The script is for 2 TTL readers connected to ESP, but you can use 1 too. Than you have to delete the lines begining with +2,1,r... and correct >M 2 to >M1
 
-In the line +1,`3`,r... the `3` is the GPIO port, standard RX(GPIO3). You can change it if you like (by the 2nd meter is GPIO2, you can change it too...) You can use any GPIO port of the ESP.
+In the line +1,`3`,r... the `3` is the GPIO pin, standard RX(GPIO3). You can change it if you like (by the 2nd meter is GPIO2, you can change it too...) You can use any GPIO pin of the ESP.
 
 You have to change the text "Encyrption Key" to the key which you recive from Netz Burgenland.
 
