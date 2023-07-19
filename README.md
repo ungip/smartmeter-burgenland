@@ -13,4 +13,45 @@ This sketch was made to read and decrypt the data from my Smart Meter (Landis+Gy
 !!!!!!!!!!! Flash your ESP before connecting to TTL reader !!!!!!!!!!!!!
 ## Wiring
 ## Script
+```
+>D
+>B
+smlj=0
+=>sensor53 r
+>R
+smlj=0
+>S
+if upsecs>22
+then
+smlj|=1
+endif
+>M 2
++1,3,r,0,9600,smartmeter1
+1,=so3,512
+1,=so4,Encyrption Key
+1,020Ex1UUuu@1,Spannung L1,V,V_L1,0
+1,020Ex4UUuu@1,Spannung L2,V,V_L3,0
+1,020Ex7UUuu@1,Spannung L3,V,V_L3,0
+1,020Ex10UUuu@100,Strom L1,A,A_L1,2
+1,020Ex13UUuu@100,Strom L2,A,A_L2,2
+1,020Ex16UUuu@100,Strom L3,A,A_L3,2
+1,020Ex19UUuuUUuu@1,Leistung +P,W,W_IN,0
+1,020Ex24UUuuUUuu@1,Leistung -P,W,W_OUT,0
+1,020Ex29UUuuUUuu@1000,Zählerstand +P,kWh,kWh_total_IN,3
+1,020Ex34UUuuUUuu@1000,Zählerstand -P,kWh,kWh_total_OUT,3
++2,1,r,0,9600,smartmeter2
+2,=so3,512
+2,=so4,Encyrption Key
+2,020Ex1UUuu@1,Spannung L1,V,V_L1,0
+2,020Ex4UUuu@1,Spannung L2,V,V_L3,0
+2,020Ex7UUuu@1,Spannung L3,V,V_L3,0
+2,020Ex10UUuu@100,Strom L1,A,A_L1,2
+2,020Ex13UUuu@100,Strom L2,A,A_L2,2
+2,020Ex16UUuu@100,Strom L3,A,A_L3,2
+2,020Ex19UUuuUUuu@1,Leistung +P,W,W_IN,0
+2,020Ex24UUuuUUuu@1,Leistung -P,W,W_OUT,0
+2,020Ex29UUuuUUuu@1000,Zählerstand +P,kWh,kWh_total_IN,3
+2,020Ex34UUuuUUuu@1000,Zählerstand -P,kWh,kWh_total_OUT,3
+```
+
 ## Home Assistant integration
