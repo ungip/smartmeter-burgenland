@@ -1,2 +1,3 @@
-# smartmeter-burgenland
-Netz Bugenland Landis Gyr E450 Tasmota script
+# Netz Bugenland Landis Gyr E450 Tasmota script
+
+
