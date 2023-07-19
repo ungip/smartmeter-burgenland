@@ -9,6 +9,8 @@ This sketch was made to read and decrypt the data from my Smart Meter (Landis+Gy
 * download custom Tasmota firmware from [here](https://ottelo.jimdofree.com/stromz%C3%A4hler-auslesen-tasmota/) (german)
 * or build your own [here](https://tasmota.github.io/docs/Smart-Meter-Interface/)
 * flash it with [Tasmotizer](https://github.com/tasmota/tasmotizer)
+* configure module: generic(0)
+* configure wifi
 
 !!!!!!!!!!! Flash your ESP before connecting to TTL reader !!!!!!!!!!!!!
 ## Wiring
