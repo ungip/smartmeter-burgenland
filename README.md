@@ -32,7 +32,7 @@ This sketch was made to read and decrypt the data from my Smart Meter (Landis+Gy
 * [setup MQTT](https://tasmota.github.io/docs/MQTT/) (you need a running MQTT broker in Home Assistant)
 * `open console -> edit script -> enable script -> copy code below`
 
-The script is for 2 TTL readers connected to ESP, but you can use 1 too. Than you have to delete the lines begining with +2,1,r... and correct >M 2 to >M1
+The script is for 2 TTL readers connected to the ESP, but you can use 1 too. Than you have to delete the lines begining with +2,1,r... and correct >M 2 to >M1
 
 In the line +1,`3`,r... the `3` is the GPIO pin, standard RX(GPIO3). You can change it if you like (by the 2nd meter is GPIO2, you can change it too...) You can use any GPIO pin of the ESP.
 
@@ -83,7 +83,7 @@ endif
 After restart, you have to see this data on the main page:
 
 <p align="center">
-    <img src=https://github.com/ungip/smartmeter-burgenland/blob/main/wire.jpg>    
+    <img src=https://github.com/ungip/smartmeter-burgenland/blob/main/tasmota.png>    
 </p>
 
 ## Home Assistant integration
