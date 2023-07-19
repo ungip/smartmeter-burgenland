@@ -22,7 +22,7 @@ This sketch was made to read and decrypt the data from my Smart Meter (Landis+Gy
 | TX2        | GPIO1 (TX)   |
 
 <p align="center">
-    <img src=https://user-images.githubusercontent.com/24528715/93748447-96e0d680-fbf8-11ea-9647-9d303cda0ea7.png>    
+    <img src=https://github.com/ungip/smartmeter-burgenland/blob/main/wire.jpg>    
 </p>
 
 ## Script
