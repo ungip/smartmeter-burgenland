@@ -17,6 +17,8 @@ The script is for 2 TTL readers connected to ESP, but you can use 1 too. Than yo
 
 In the line +1,`3`,r... the `3` is the GPIO port, standard RX(GPIO3). You can change it if you like (by the 2nd meter is GPIO2, you can change it too...) You can use any GPIO port of the ESP.
 
+You have to change the text "Encyrption Key" to the key which you recive from Netz Burgenland.
+
 ```
 >D
 >B
