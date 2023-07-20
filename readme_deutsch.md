@@ -3,6 +3,7 @@ Diese Anleitung ist eine Zusammenfassung, was ich mühevoll von verschiedenen Qu
 
 Das Script liest die Werte vom Netz Burgenland - Energie Burgenland Smart Meter aus. Nachher können die Daten leicht über MQTT in Home Assistant integriert werden.
 
+[Man muss die Kundenschnittstelle freischalten lassen!!! (optisch)](https://www.netzburgenland.at/kundenservice/smart-metering/smart-metering/kundenschnittstelle.html)
 ## Hardware
 * ESP8266 oder ESP32
 * [TTL - IR leser](https://www.amazon.de/dp/B0BPMVX4VW?psc=1&ref=ppx_yo2ov_dt_b_product_details)
@@ -109,5 +110,5 @@ Der energy dashboard verarbeitet nur sensoren mit kWh Einheit (zB. kwh_total_in,
 ### Quellen
 * https://ottelo.jimdofree.com/stromz%C3%A4hler-auslesen-tasmota/
 * https://tasmota.github.io/docs/Smart-Meter-Interface/
-* https://www.photovoltaikforum.com/thread/137994-landis-gyr-e450-auslesen-wie-ich-es-mache/?pageNo=10
+* https://www.photovoltaikforum.com/thread/137994-landis-gyr-e450-auslesen-wie-ich-es-mache/
 * https://www.youtube.com/channel/UCiU--5PKQOMdfMTG7dTKc7g/videos
