@@ -6,7 +6,7 @@ Dieser Script liest die Werte vom Netz Burgenland - Energie Burgenland Smart Met
 * [TTL - IR leser](https://www.amazon.de/dp/B0BPMVX4VW?psc=1&ref=ppx_yo2ov_dt_b_product_details)
 * Kabel (habe alte USB-Kabel verwendet, die haben 4 Ader)
 ## Software
-* Vorgefertigte Tasmota firmware herunterladen [hier](https://ottelo.jimdofree.com/stromz%C3%A4hler-auslesen-tasmota/) (german)
+* Vorgefertigte Tasmota firmware herunterladen [hier](https://ottelo.jimdofree.com/stromz%C3%A4hler-auslesen-tasmota/)
 * oder selbst kompilieren [hier](https://tasmota.github.io/docs/Smart-Meter-Interface/)
 * flashen mit [Tasmotizer](https://github.com/tasmota/tasmotizer)
 * modul konfigurieren: generic(0)
