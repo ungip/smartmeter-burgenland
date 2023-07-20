@@ -1,5 +1,5 @@
 # Netz Burgenland Landis Gyr E450 Tasmota script ESP8266
-Diese Anleitung ist eine Zusammenfassung, was ich mühevoll von verschieden Quellen gesammelt habe.
+Diese Anleitung ist eine Zusammenfassung, was ich mühevoll von verschiedenen Quellen gesammelt habe.
 
 Das Script liest die Werte vom Netz Burgenland - Energie Burgenland Smart Meter aus. Nachher können die Daten leicht über MQTT in Home Assistant integriert werden.
 
