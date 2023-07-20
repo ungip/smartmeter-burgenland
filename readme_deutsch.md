@@ -1,4 +1,6 @@
 # Netz Burgenland Landis Gyr E450 Tasmota script ESP8266
+Diese Anleitung ist eine Zusammenfassung, was ich mühevoll von verschieden Quellen gesammelt habe.
+
 Dieses Script liest die Werte vom Netz Burgenland - Energie Burgenland Smart Meter aus. Nachher können die Daten leicht über MQTT in Home Assistant integriert werden.
 
 ## Hardware
@@ -104,3 +106,8 @@ template:
 ```
 Der energy dashboard verarbeitet nur sensoren mit kWh Einheit (zB. kwh_total_in, kwh_total_out)
 
+### Quellen
+* https://ottelo.jimdofree.com/stromz%C3%A4hler-auslesen-tasmota/
+* https://tasmota.github.io/docs/Smart-Meter-Interface/
+* https://www.photovoltaikforum.com/thread/137994-landis-gyr-e450-auslesen-wie-ich-es-mache/?pageNo=10
+* https://www.youtube.com/channel/UCiU--5PKQOMdfMTG7dTKc7g/videos
