@@ -87,3 +87,18 @@ After restart, you have to see this data on the main page:
 </p>
 
 ## Home Assistant integration
+Home Assistant should recognize your Tasmota device automatically
+
+If you want to add the meter reading to the energy dashboard, you have to customize the type of the data. Add this template to your configuration.yaml:
+
+```yaml
+template:
+  - sensor:
+    - name: "Stomzähler Haus"
+      unit_of_measurement: 'kWh'
+      device_class: "energy"
+      state_class: "total_increasing"
+      state: >-
+            {{ float(states('sensor.tasmota_smartmeter1_kwh_total_in')) | round(3) }}
+```
+You can make this to all sensor data, but the energy dashboard works only with kWh measurements (eg. kwh_total_in, kwh_total_out)
