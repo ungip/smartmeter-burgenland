@@ -4,6 +4,7 @@ Diese Anleitung ist eine Zusammenfassung, was ich mühevoll von verschiedenen Qu
 Das Script liest die Werte vom Netz Burgenland - Energie Burgenland Smart Meter aus. Nachher können die Daten leicht über MQTT in Home Assistant integriert werden.
 
 [Man muss die Kundenschnittstelle freischalten lassen!!! (optisch)](https://www.netzburgenland.at/kundenservice/smart-metering/smart-metering/kundenschnittstelle.html)
+Das [Formular]() an die adresse: info.metering@netzburgenland.at senden
 ## Hardware
 * ESP8266 oder ESP32
 * [TTL - IR leser](https://www.amazon.de/dp/B0BPMVX4VW?psc=1&ref=ppx_yo2ov_dt_b_product_details)
