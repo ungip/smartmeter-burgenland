@@ -58,7 +58,7 @@ endif
 >M 2
 +1,3,r,0,9600,smartmeter1
 1,=so3,512
-1,=so4,Encyrption Key
+1,=so4,Encyrption Key1
 1,020Ex1UUuu@1,Spannung L1,V,V_L1,0
 1,020Ex4UUuu@1,Spannung L2,V,V_L3,0
 1,020Ex7UUuu@1,Spannung L3,V,V_L3,0
@@ -71,7 +71,7 @@ endif
 1,020Ex34UUuuUUuu@1000,Zählerstand -P,kWh,kWh_total_OUT,3
 +2,2,r,0,9600,smartmeter2
 2,=so3,512
-2,=so4,Encyrption Key
+2,=so4,Encyrption Key2
 2,020Ex1UUuu@1,Spannung L1,V,V_L1,0
 2,020Ex4UUuu@1,Spannung L2,V,V_L3,0
 2,020Ex7UUuu@1,Spannung L3,V,V_L3,0
