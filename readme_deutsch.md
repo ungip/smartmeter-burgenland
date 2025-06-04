@@ -36,7 +36,7 @@ Das [Formular](https://github.com/ungip/smartmeter-burgenland/blob/e5fbbfa4e9089
 * [MQTT einrichten](https://tasmota.github.io/docs/MQTT/) (MQTT broker wird benötigt zB. von Home Assistant)
 * `console öffnen -> edit script -> enable script -> script unten kopieren`
 
-Das untere Script ist für 2 TTL Leseköpfe (2 smart meter), funktioniert natürlich auch mit 1. Man muss dann die Reihen beginnend mit +2,1,r... bis zu # löschen und >M 2 auf >M 1 korrigieren.
+Das untere Script ist für 2 TTL Leseköpfe (2 smart meter), funktioniert natürlich auch mit 1. Man muss dann die Reihen beginnend mit +2,2,r... bis zu # löschen und >M 2 auf >M 1 korrigieren.
 
 In der Reihe +1,`3`,r... die `3` ist der GPIO pin, standard RX(GPIO3). Man kann aber beliebigen pin nehmen. (beim zweiten ist GPIO2, natürlich auch veränderbar...)
 
